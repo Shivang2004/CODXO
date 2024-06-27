@@ -13,6 +13,7 @@ print("4. Convert USD to INR")
 
 choice = int(input("Enter your choice (1 or 2)and (3 or 4): "))
 
+
 if choice == 1:
     amount = float(input("Enter amount in USD: "))
     converted_amount = amount * USD_TO_EUR
